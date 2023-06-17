@@ -13,8 +13,8 @@ description = "Automatic Forecasting Procedure"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-  "cmdstanpy>=1.0.4",
-  "numpy>=1.15.4",
+  "cmdstanpy=1.0.4",
+  "numpy=1.15.4",
   "matplotlib>=2.0.0",
   "pandas>=1.0.4",
   "LunarCalendar>=0.0.9",
