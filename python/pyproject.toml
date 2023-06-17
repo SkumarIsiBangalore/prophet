@@ -2,6 +2,7 @@
 requires = [
   "setuptools>=64",
   "wheel",
+  "cmdstanpy>=1.0.4",
 ]
 build-backend = "setuptools.build_meta"
 
@@ -12,6 +13,7 @@ description = "Automatic Forecasting Procedure"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
+"cmdstanpy>=1.0.4",
   "numpy>=1.15.4",
   "matplotlib>=2.0.0",
   "pandas>=1.0.4",
