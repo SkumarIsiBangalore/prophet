@@ -24,7 +24,7 @@ logger = logging.getLogger('prophet')
 logger.setLevel(logging.INFO)
 NANOSECONDS_TO_SECONDS = 1000 * 1000 * 1000
 
-class Prophet(object):
+class GvForecast(object):
     """Prophet forecaster.
 
     Parameters
