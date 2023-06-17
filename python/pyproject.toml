@@ -7,13 +7,13 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "prophet"
+name = "GvForecast"
 dynamic = ["version"]
 description = "Automatic Forecasting Procedure"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
-  "cmdstanpy=1.0.4",
+  "cmdstanpy>=1.0.4",
   "numpy=1.15.4",
   "matplotlib>=2.0.0",
   "pandas>=1.0.4",
